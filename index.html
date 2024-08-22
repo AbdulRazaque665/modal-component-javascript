@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal with JavaScript</title>
+    <link rel="stylesheet" href="/style/style.css">
+</head>
+<body >
+    <button class="modal-button" id="modal-btn">Click me for Modal Open</button>
+
+    <div class="modal" id="modal">
+        <div class="modal-main slide-animation">
+           <div class="modal-heading">
+            <h1>Sign in</h1>
+            <button class="close-btn" id="close-button">&times;</button>
+           </div>
+
+           <div class="modal-body">
+            <input type="email" placeholder="Email">
+            <input type="password" placeholder="Password">
+            <button class="log-btn">Login</button>
+           </div>
+
+           <div class="modal-footer">
+            <p>Not a member? <button>Create a account</button></p>
+           </div>
+        </div>
+    </div>
+    <script src="/script/script.js"></script>
+</body>
+</html>
